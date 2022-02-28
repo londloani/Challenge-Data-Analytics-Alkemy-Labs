@@ -11,9 +11,6 @@ import pandas as pd
 from requests.exceptions import ConnectionError
 
 
-
-from decouple import config
-
 import locale
 locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
 logging.basicConfig( level=logging.DEBUG, filename='example.log')
