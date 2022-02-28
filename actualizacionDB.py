@@ -22,9 +22,7 @@ def pruebaConexion():
 Todos los registros existentes deben ser reemplazados por la nueva información.
 '''
 if __name__ == '__main__':
-    os.system ("clear")
-
-
+    
     if pruebaConexion():
         engine = create_engine('postgresql://'+config('user')+':'+config('password')+'@'+config('hostname')+'/'+config('database_name'))
         connection = engine.connect()
