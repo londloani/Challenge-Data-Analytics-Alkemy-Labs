@@ -48,4 +48,21 @@ Para activar el entorno virtual, escribir lo siguiente en la terminal:<br><br>
 Para desactivar el entorno virtual, en la terminal escribir:<br>
 <br>
 <b>deactivate</b>
-
+<br>
+<br>
+<br>
+<H1>Descripción de archivos</H1>
+<br>
+<br>
+<b>Procesamiento.py</b>
+<br>
+Dentro de este archivo, se encuentras las rutinas para realizar el procesamiento de los archivos CVS
+<br>
+<br>
+<b>creaDB.py</b>
+<br>
+Dentro de este archivo esta la rutina para crear las tablas en la base de datos de PostgreSQL
+<br>
+<br>
+<b>actualizacionDB.py</b><br>
+Este archivo contiene los procesos para que con los archivos CVS procesados almacena la información dentro de la Base de Datos de PostgreSQL
